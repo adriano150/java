@@ -20,7 +20,7 @@ public class Challenger {
 
 		for (int i = 0; i < notas.length; i++) {
 
-			System.out.printf("informe a %dº nota: ", i + 1);
+			System.out.printf("Informe a %dº nota: ", i + 1);
 			notas[1] = entrada.nextDouble();
 			media += notas[1];
 
