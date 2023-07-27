@@ -17,8 +17,8 @@ public class Operadores {
 		int valor01 = 10;
 		int valor02 = 10;
 		
-		//System.out.println(valor01++ + ++valor01);
-		//System.out.println(valor02++ + valor02++);
+		System.out.println(valor01++ + ++valor01);
+		System.out.println(valor02++ + valor02++);
 		System.out.println(valor02++ + ++valor01);
 	}
 
