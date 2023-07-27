@@ -16,6 +16,10 @@ public class Operadores {
 		
 		int valor01 = 10;
 		int valor02 = 10;
+		int valor03 = 2;
+		
+		valor03 = valor01++;
+		System.out.println("Valor de valor03 é: " + valor03);
 		
 		System.out.println(valor01++ + ++valor01); // 22
 		System.out.println(valor02++ + valor02++); // 21
